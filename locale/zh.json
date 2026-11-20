@@ -1,0 +1,1 @@
+{ "meta": { "title": "Qwen 联网搜索", "description": "将 DeepSeek Harness 的 web_search 指向 Qwen Token Plan 原生搜索，由 Qwen3.8 Flash 总结并返回来源链接，不产生 DeepSeek 按次搜索费用。", "detail": "docs/DETAIL.md" } }

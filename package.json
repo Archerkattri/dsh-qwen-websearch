@@ -1,0 +1,42 @@
+{
+  "name": "dsh-qwen-websearch",
+  "version": "0.1.0",
+  "description": "Qwen Token Plan web search provider for DeepSeek Harness: native web_search with Qwen3.8 Flash summaries and source URLs",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "cordis",
+    "qwen",
+    "web-search",
+    "websearch"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archerkattri/dsh-qwen-websearch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/archerkattri/dsh-qwen-websearch/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

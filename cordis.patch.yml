@@ -1,0 +1,18 @@
+# Qwen Token Plan web search for DeepSeek Harness.
+#
+# 1. Pins the `web` service's search provider to the Qwen provider this bundle
+#    registers, keeping the shipped HTTP fetch provider. Searches then run on
+#    Token Plan credits instead of DeepSeek's per-search endpoint.
+# 2. Inserts the provider row. The API key is resolved from the DSH credential
+#    store (then the environment); see README for the fallback references.
+- id: web
+  name: '@deepseek-ai/dsh-web'
+  config:
+    searchProvider: qwen-token-plan
+    fetchProvider: http
+- insert:
+    - id: web-search-qwen
+      name: 'dsh-qwen-websearch'
+      config:
+        baseURL: https://token-plan.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1
+        model: qwen3.8-flash
