@@ -27,6 +27,8 @@
     "websearch"
   ],
   "license": "MIT",
+  "author": "Archerkattri",
+  "homepage": "https://github.com/archerkattri/dsh-qwen-websearch#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/archerkattri/dsh-qwen-websearch.git"
