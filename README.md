@@ -1,5 +1,7 @@
 # dsh-qwen-websearch
 
+[![CI](https://github.com/Archerkattri/dsh-qwen-websearch/actions/workflows/ci.yml/badge.svg)](https://github.com/Archerkattri/dsh-qwen-websearch/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Web search for **DeepSeek Harness (dsh)** backed by **Qwen Token Plan**.
 
 It registers a DSH `WebSearchProvider` that runs Qwen's native web search
