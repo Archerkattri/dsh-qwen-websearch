@@ -112,6 +112,10 @@ Provider structure based on
 (MIT), with DuckDuckGo retrieval replaced by Qwen's native Responses `web_search`
 tool and Qwen3.8 Flash summarization.
 
+## Related
+
+- [dsh-qwen4-effort](https://github.com/Archerkattri/dsh-qwen4-effort) — official Qwen4 effort levels for Qwen4 models on an existing Qwen Token Plan route.
+
 ## License
 
 MIT
